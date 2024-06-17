@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('/wine-background.jpg'); /* Asegúrate de que la imagen esté en la carpeta 'public' */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #4a4a4a;
+}
+
+a {
+  color: #8b0000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b22222;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
