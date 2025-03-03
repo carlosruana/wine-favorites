@@ -5,7 +5,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-gray-800 w-full p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="text-white text-lg font-bold">Wine App</Link>
+        <Link href="/" className="text-white text-lg font-bold">Top Wines</Link>
         <div className="flex space-x-4">
           <Link href="/" className="text-white">Home</Link>
           <Link href="/history" className="text-white">History</Link>
