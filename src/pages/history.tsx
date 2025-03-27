@@ -36,8 +36,8 @@ const History: React.FC = () => {
                 &#x2716;
               </button>
               <img
-                src={entry.imageUrl}
-                alt={entry.wineName}
+                src={entry.image}
+                alt={entry.name}
                 className="w-24 h-24 rounded-lg mr-4"
               />
               <div>
